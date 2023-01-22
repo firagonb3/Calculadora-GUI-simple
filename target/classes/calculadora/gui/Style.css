@@ -1,0 +1,38 @@
+.borde {
+    -fx-background-radius: 20;
+    -fx-background-color: linear-gradient(to right, #FFB703,#FB8500 );
+}
+
+.barra {
+    -fx-background-radius: 20;
+    -fx-background-color:  linear-gradient(to right, #023047,#03045e );
+}
+
+.barra.button {
+    -fx-background-radius: 100;
+}
+
+.fondo {
+    -fx-background-radius: 20;
+    -fx-background-color:  linear-gradient(to right, #8ECAE6,#58b4d1 );
+}
+
+.botoncal {
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-background-color:  linear-gradient(to right, #219EBC,#0096c7 )
+}
+
+.numeros {
+    -fx-text-fill: #001524;
+    -fx-background-radius: 20;
+    -fx-background-color:  #cceaf6;
+}
+
+.cerrar:hover {
+    -fx-background-color:  red;
+}
+
+.Titulo {
+    -fx-text-fill: white;
+}

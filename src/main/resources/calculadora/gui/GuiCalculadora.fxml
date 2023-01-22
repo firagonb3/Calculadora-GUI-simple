@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="coso" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="247.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.calc.ControlDeCalculadora">
+   <top>
+      <TextField fx:id="tPantalla" alignment="CENTER_RIGHT" prefHeight="46.0" prefWidth="358.0" styleClass="numeros" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+   </top>
+   <center>
+      <AnchorPane prefHeight="421.0" prefWidth="262.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="b1" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#o1" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="1" />
+            <Button fx:id="b2" layoutX="71.0" layoutY="14.0" mnemonicParsing="false" onAction="#o2" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="2" />
+            <Button fx:id="b3" layoutX="128.0" layoutY="14.0" mnemonicParsing="false" onAction="#o3" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="3" />
+            <Button fx:id="b4" layoutX="13.0" layoutY="63.0" mnemonicParsing="false" onAction="#o4" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="4" />
+            <Button fx:id="b5" layoutX="70.0" layoutY="63.0" mnemonicParsing="false" onAction="#o5" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="5" />
+            <Button fx:id="b6" layoutX="127.0" layoutY="63.0" mnemonicParsing="false" onAction="#o6" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="6" />
+            <Button fx:id="b7" layoutX="13.0" layoutY="112.0" mnemonicParsing="false" onAction="#o7" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="7" />
+            <Button fx:id="b8" layoutX="70.0" layoutY="112.0" mnemonicParsing="false" onAction="#o8" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="8" />
+            <Button fx:id="b9" layoutX="127.0" layoutY="112.0" mnemonicParsing="false" onAction="#o9" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="9" />
+            <Button fx:id="b0" layoutX="71.0" layoutY="162.0" mnemonicParsing="false" onAction="#o0" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="0" />
+            <Button fx:id="bSuma" layoutX="14.0" layoutY="162.0" mnemonicParsing="false" onAction="#oSuma" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="+" />
+            <Button fx:id="bmenos" layoutX="128.0" layoutY="162.0" mnemonicParsing="false" onAction="#oMenos" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="-" />
+            <Button fx:id="bCalcular" layoutX="186.0" layoutY="162.0" mnemonicParsing="false" onAction="#oCalcular" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="=" />
+            <Button fx:id="bMultiplicar" layoutX="186.0" layoutY="112.0" mnemonicParsing="false" onAction="#oMultiplicar" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="*" />
+            <Button fx:id="bDividir" layoutX="186.0" layoutY="63.0" mnemonicParsing="false" onAction="#oDividir" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="/" />
+            <Button fx:id="bResto" layoutX="186.0" layoutY="14.0" mnemonicParsing="false" onAction="#oResto" prefHeight="39.0" prefWidth="48.0" styleClass="botoncal" text="C" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

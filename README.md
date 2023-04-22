@@ -2,7 +2,7 @@
 
 Esto es un proyecto simple de una calculadora grafica echa en java utilizando la tecnologia JavaFX.
 
-a qui unas imagenes del resultafinal.
+a qui unas imagenes del resultado final.
 
 
 [![calculadora1-removebg-preview.png](https://i.postimg.cc/593CYkYx/calculadora1-removebg-preview.png)](https://postimg.cc/148tbBrT)
